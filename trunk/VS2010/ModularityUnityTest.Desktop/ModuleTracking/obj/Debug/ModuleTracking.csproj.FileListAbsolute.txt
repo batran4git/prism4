@@ -1,0 +1,8 @@
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleTracking\bin\Debug\ModuleTracking.dll
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleTracking\bin\Debug\ModuleTracking.pdb
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleTracking\obj\Debug\ResolveAssemblyReference.cache
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleTracking\obj\Debug\ModuleTracking.Properties.Resources.resources
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleTracking\obj\Debug\GenerateResource.read.1.tlog
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleTracking\obj\Debug\GenerateResource.write.1.tlog
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleTracking\obj\Debug\ModuleTracking.dll
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleTracking\obj\Debug\ModuleTracking.pdb

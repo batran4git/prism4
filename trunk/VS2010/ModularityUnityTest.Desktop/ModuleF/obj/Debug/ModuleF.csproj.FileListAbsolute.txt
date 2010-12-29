@@ -1,0 +1,8 @@
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleF\bin\Debug\ModuleF.dll
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleF\bin\Debug\ModuleF.pdb
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleF\obj\Debug\ResolveAssemblyReference.cache
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleF\obj\Debug\ModuleF.Properties.Resources.resources
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleF\obj\Debug\GenerateResource.read.1.tlog
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleF\obj\Debug\GenerateResource.write.1.tlog
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleF\obj\Debug\ModuleF.dll
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModuleF\obj\Debug\ModuleF.pdb
