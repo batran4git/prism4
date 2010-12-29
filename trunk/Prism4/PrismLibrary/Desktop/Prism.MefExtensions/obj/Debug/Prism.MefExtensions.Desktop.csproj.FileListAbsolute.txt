@@ -1,0 +1,14 @@
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.MefExtensions.XML
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.xml
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\ResolveAssemblyReference.cache
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\Microsoft.Practices.Prism.MefExtensions.Properties.Resources.resources
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\GenerateResource.read.1.tlog
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\GenerateResource.write.1.tlog
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\Microsoft.Practices.Prism.MefExtensions.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\Microsoft.Practices.Prism.MefExtensions.pdb

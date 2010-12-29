@@ -1,0 +1,5 @@
+C:\_MS_DEV\Prism4\Quickstarts\BasicMVVM\BasicMVVMApp.Web\bin\SimpleMVVMApp.Web.dll
+C:\_MS_DEV\Prism4\Quickstarts\BasicMVVM\BasicMVVMApp.Web\bin\SimpleMVVMApp.Web.pdb
+C:\_MS_DEV\Prism4\Quickstarts\BasicMVVM\BasicMVVMApp.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\_MS_DEV\Prism4\Quickstarts\BasicMVVM\BasicMVVMApp.Web\obj\Debug\SimpleMVVMApp.Web.dll
+C:\_MS_DEV\Prism4\Quickstarts\BasicMVVM\BasicMVVMApp.Web\obj\Debug\SimpleMVVMApp.Web.pdb

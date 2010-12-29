@@ -1,0 +1,5 @@
+C:\_MS_DEV\Prism4\Quickstarts\Modularity\Desktop\ModularityWithMef\ModuleTracking\bin\Debug\ModularityWithMef.Desktop.ModuleTracking.dll
+C:\_MS_DEV\Prism4\Quickstarts\Modularity\Desktop\ModularityWithMef\ModuleTracking\bin\Debug\ModularityWithMef.Desktop.ModuleTracking.pdb
+C:\_MS_DEV\Prism4\Quickstarts\Modularity\Desktop\ModularityWithMef\ModuleTracking\obj\Debug\ResolveAssemblyReference.cache
+C:\_MS_DEV\Prism4\Quickstarts\Modularity\Desktop\ModularityWithMef\ModuleTracking\obj\Debug\ModularityWithMef.Desktop.ModuleTracking.dll
+C:\_MS_DEV\Prism4\Quickstarts\Modularity\Desktop\ModularityWithMef\ModuleTracking\obj\Debug\ModularityWithMef.Desktop.ModuleTracking.pdb
