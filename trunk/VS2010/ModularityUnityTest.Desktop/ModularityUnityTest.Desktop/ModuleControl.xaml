@@ -15,7 +15,7 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <TextBlock TextWrapping="Wrap"
-                         Text="{Binding FallbackValue=unknown}"
+                         Text="{Binding ModuleName, FallbackValue=unknown }"
                          HorizontalAlignment="Center" VerticalAlignment="Center"
                          TextAlignment="Center" />
                 <TextBlock x:Name="ClickToLoadTextBlock" 
@@ -30,6 +30,12 @@
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
                     <ProgressBar Maximum="100" Height="10" Margin="2" Value="{Binding DownloadProgressPercentage, Mode=OneWay}" />
+                    <StackPanel Margin="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+                        <TextBlock Margin="0" TextWrapping="Wrap" FontSize="10"
+                                   Text="{Binding DownloadProgressPercentage, Mode=OneWay}" />
+                        <TextBlock Margin="0" Text="%" FontSize="10" />
+                    </StackPanel>
+
                 </Grid>
             </Grid>
         </Border> 
