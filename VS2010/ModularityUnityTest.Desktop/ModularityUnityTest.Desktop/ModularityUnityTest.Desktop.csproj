@@ -42,11 +42,23 @@
     <Reference Include="Microsoft.Practices.Prism.MefExtensions">
       <HintPath>..\..\..\..\..\..\..\_MS_DEV\Prism4\Quickstarts\Modularity\Desktop\ModularityWithMef\ModularityWithMef.Desktop\bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
+      <HintPath>..\..\..\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\..\..\..\..\..\..\_MS_DEV\Prism4\Quickstarts\Modularity\Desktop\ModularityWithMef\ModularityWithMef.Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Unity">
-      <HintPath>..\..\..\..\..\Downloads\prismSource\Source\SharedBinaries\Prism\Microsoft.Practices.Unity.dll</HintPath>
+      <HintPath>..\..\..\Prism4\Lib\Desktop\Unity\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\..\..\Prism4\Lib\Desktop\Unity\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\..\..\Prism4\Lib\Desktop\Unity\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration">
+      <HintPath>..\..\..\Prism4\Lib\Desktop\Unity\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -68,10 +80,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AggregateModuleCatalog.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CallbackLogger.cs" />
+    <Compile Include="ModuleTracker.cs" />
     <Compile Include="QuickStartBootstrapper.cs" />
     <Compile Include="Shell.xaml.cs">
       <DependentUpon>Shell.xaml</DependentUpon>
@@ -106,6 +121,36 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModuleA\ModuleA.csproj">
+      <Project>{7D82171E-7E41-4733-95D2-8EEE8732D867}</Project>
+      <Name>ModuleA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModuleB\ModuleB.csproj">
+      <Project>{D41697D5-4A5F-48E0-B1DC-675570458A10}</Project>
+      <Name>ModuleB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModuleC\ModuleC.csproj">
+      <Project>{4632A9F5-D062-4D34-ACB2-A38D7F431EB8}</Project>
+      <Name>ModuleC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModuleD\ModuleD.csproj">
+      <Project>{A4105F62-45B2-42FF-A17B-82A78142A9C9}</Project>
+      <Name>ModuleD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModuleE\ModuleE.csproj">
+      <Project>{DE5CD8ED-1244-48B4-84BD-D55F3DEE2CB7}</Project>
+      <Name>ModuleE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModuleF\ModuleF.csproj">
+      <Project>{2C6790FB-FB54-4482-B846-EA95354C63EF}</Project>
+      <Name>ModuleF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModuleTracking\ModuleTracking.csproj">
+      <Project>{06DF91C8-6065-4B24-9936-2096EDC09D1D}</Project>
+      <Name>ModuleTracking</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,9 @@
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModularityUnityTest.Desktop\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModularityUnityTest.Desktop\obj\x86\Debug\Shell.baml
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModularityUnityTest.Desktop\obj\x86\Debug\Shell.g.cs
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModularityUnityTest.Desktop\obj\x86\Debug\App.g.cs
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModularityUnityTest.Desktop\obj\x86\Debug\ModularityUnityTest.Desktop_MarkupCompile.cache
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModularityUnityTest.Desktop\obj\x86\Debug\ModularityUnityTest.Desktop.g.resources
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModularityUnityTest.Desktop\obj\x86\Debug\ModularityUnityTest.Desktop.Properties.Resources.resources
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModularityUnityTest.Desktop\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\_MS_DEV\VS2010\ModularityUnityTest.Desktop\ModularityUnityTest.Desktop\obj\x86\Debug\GenerateResource.write.1.tlog

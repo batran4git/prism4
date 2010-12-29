@@ -7,5 +7,7 @@ namespace ModuleTracking
 {
     public interface IModuleTracker
     {
+        void RecordModuleConstructed(string moduleName);
+        void RecordModuleInitialized(string moduleName);
     }
 }
