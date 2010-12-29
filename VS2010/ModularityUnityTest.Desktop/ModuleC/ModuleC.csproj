@@ -34,11 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Practices.Composite.UnityExtensions">
-      <HintPath>..\..\..\..\Users\dpark\Downloads\prismSource\Source\SharedBinaries\Prism\Microsoft.Practices.Composite.UnityExtensions.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Practices.Prism">
-      <HintPath>..\..\..\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorld.Desktop\bin\Debug\Microsoft.Practices.Prism.dll</HintPath>
+      <HintPath>..\..\..\Prism4\PrismLibrary\Desktop\Prism\bin\Debug\Microsoft.Practices.Prism.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
       <HintPath>..\..\..\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>

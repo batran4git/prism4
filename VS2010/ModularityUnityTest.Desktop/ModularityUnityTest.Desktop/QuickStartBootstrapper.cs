@@ -64,8 +64,6 @@ namespace ModularityUnityTest.Desktop
                 ModuleType = moduleCType.AssemblyQualifiedName,
                 InitializationMode = Microsoft.Practices.Prism.Modularity.InitializationMode.OnDemand
             });
-
-            base.ConfigureModuleCatalog();
         }
     }
 }

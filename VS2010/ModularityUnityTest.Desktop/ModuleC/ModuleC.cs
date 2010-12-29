@@ -11,6 +11,20 @@ namespace ModularityUnityTest.Desktop
     [Module(ModuleName=WellKnownModuleName.ModuleC)]
     public class ModuleC: IModule
     {
+        private readonly IModuleTracker moduleTracker;
 
+        public ModuleC(IModuleTracker tracker)
+        {
+            if (tracker == null)
+                throw new ArgumentNullException("moduleTracker");
+
+            this.moduleTracker = tracker;
+            this.moduleTracker.RecordModuleConstructed(WellKnownModuleName.ModuleC);
+        }
+
+        public void Initialize()
+        {
+            this.moduleTracker.RecordModuleInitialized(WellKnownModuleName.ModuleC);
+        }
     }
 }

@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Practices.Prism">
-      <HintPath>..\..\..\..\..\..\..\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorld.Desktop\bin\Debug\Microsoft.Practices.Prism.dll</HintPath>
+      <HintPath>..\..\..\Prism4\PrismLibrary\Desktop\Prism\bin\Debug\Microsoft.Practices.Prism.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism.MefExtensions">
       <HintPath>..\..\..\..\..\..\..\_MS_DEV\Prism4\Quickstarts\Modularity\Desktop\ModularityWithMef\ModularityWithMef.Desktop\bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll</HintPath>
@@ -86,7 +86,11 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CallbackLogger.cs" />
+    <Compile Include="DiscoveryMethod.cs" />
+    <Compile Include="DownloadTiming.cs" />
+    <Compile Include="ModuleInitializationStatus.cs" />
     <Compile Include="ModuleTracker.cs" />
+    <Compile Include="ModuleTrackingState.cs" />
     <Compile Include="QuickStartBootstrapper.cs" />
     <Compile Include="Shell.xaml.cs">
       <DependentUpon>Shell.xaml</DependentUpon>
