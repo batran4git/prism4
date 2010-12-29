@@ -9,5 +9,9 @@ namespace ModularityUnityTest.Desktop
 {
     class CallbackLogger : ILoggerFacade
     {
+        public void Log(string message, Category category, Priority priority)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -9,5 +9,7 @@ namespace ModuleTracking
     {
         void RecordModuleConstructed(string moduleName);
         void RecordModuleInitialized(string moduleName);
+        void RecordModuleLoaded(string moduleName);
+        void RecordModuleDownloaded(string moduleName, long bytesReceived, long totalBytesToReceive);
     }
 }
