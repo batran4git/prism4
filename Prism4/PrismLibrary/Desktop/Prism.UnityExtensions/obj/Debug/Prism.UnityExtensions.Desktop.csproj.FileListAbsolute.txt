@@ -1,0 +1,16 @@
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Prism.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Unity.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Prism.xml
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Debug\Microsoft.Practices.Unity.xml
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\obj\Debug\ResolveAssemblyReference.cache
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\obj\Debug\Microsoft.Practices.Prism.UnityExtensions.Properties.Resources.resources
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\obj\Debug\GenerateResource.read.1.tlog
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\obj\Debug\GenerateResource.write.1.tlog
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\obj\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions\obj\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb

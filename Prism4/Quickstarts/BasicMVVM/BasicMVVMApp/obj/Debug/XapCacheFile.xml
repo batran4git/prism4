@@ -1,0 +1,9 @@
+﻿<xapCache source="C:\_MS_DEV\Prism4\Quickstarts\BasicMVVM\BasicMVVMApp\Bin\Debug\BasicMVVMApp.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="12/27/2010 10:21:37 PM">
+  <file source="C:\_MS_DEV\Prism4\Quickstarts\BasicMVVM\BasicMVVMApp\obj\Debug\BasicMVVMApp.dll" archivePath="BasicMVVMApp.dll" lastWriteTime="12/27/2010 10:21:34 PM" />
+  <file source="C:\_MS_DEV\Prism4\LIB\Silverlight\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="11/9/2010 9:22:08 PM" />
+  <file source="C:\_MS_DEV\Prism4\Bin\Silverlight\Microsoft.Practices.Prism.dll" archivePath="Microsoft.Practices.Prism.dll" lastWriteTime="11/10/2010 9:03:36 AM" />
+  <file source="C:\_MS_DEV\Prism4\LIB\Silverlight\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="11/9/2010 9:22:08 PM" />
+  <file source="c:\Program Files\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="8/26/2010 3:17:48 AM" />
+  <file source="C:\_MS_DEV\Prism4\Bin\Silverlight\Microsoft.Practices.ServiceLocation.dll" archivePath="Microsoft.Practices.ServiceLocation.dll" lastWriteTime="11/9/2010 9:22:08 PM" />
+  <file source="C:\_MS_DEV\Prism4\Quickstarts\BasicMVVM\BasicMVVMApp\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="12/27/2010 10:21:36 PM" />
+</xapCache>

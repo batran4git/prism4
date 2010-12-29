@@ -1,0 +1,14 @@
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\bin\Debug\HelloWorldModule.dll
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\bin\Debug\HelloWorldModule.pdb
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\bin\Debug\Microsoft.Practices.Prism.dll
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\bin\Debug\Microsoft.Practices.Prism.xml
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\obj\Debug\ResolveAssemblyReference.cache
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\obj\Debug\Views\HelloWorldView.baml
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\obj\Debug\Views\HelloWorldView.g.cs
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\obj\Debug\HelloWorldModule_MarkupCompile.cache
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\obj\Debug\HelloWorldModule.g.resources
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\obj\Debug\HelloWorldModule.dll
+C:\_MS_DEV\Prism4\Quickstarts\Hello World\HelloWorld.Desktop\HelloWorldModule\obj\Debug\HelloWorldModule.pdb

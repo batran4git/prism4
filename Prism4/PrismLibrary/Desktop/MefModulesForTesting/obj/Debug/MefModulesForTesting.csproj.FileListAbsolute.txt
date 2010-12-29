@@ -1,0 +1,13 @@
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\MefModulesForTesting.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\MefModulesForTesting.pdb
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\Microsoft.Practices.Prism.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\Microsoft.Practices.Prism.MefExtensions.xml
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\Microsoft.Practices.Prism.xml
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\obj\Debug\ResolveAssemblyReference.cache
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\obj\Debug\MefModulesForTesting.dll
+C:\_MS_DEV\Prism4\PrismLibrary\Desktop\MefModulesForTesting\obj\Debug\MefModulesForTesting.pdb
