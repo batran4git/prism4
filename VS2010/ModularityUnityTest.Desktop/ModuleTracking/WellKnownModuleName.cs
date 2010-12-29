@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ModuleTracking
+{
+    public static class WellKnownModuleName
+    {
+        public const string ModuleA = "ModuleA";
+        public const string ModuleB = "ModuleB";
+        public const string ModuleC = "ModuleC";
+        public const string ModuleD = "ModuleD";
+        public const string ModuleE = "ModuleE";
+        public const string ModuleF = "ModuleF";
+    }
+}
