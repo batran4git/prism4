@@ -9,7 +9,7 @@ using System.Collections.ObjectModel;
 
 namespace ModularityUnityTest.Desktop
 {
-    class AggregateModuleCatalog : IModuleCatalog
+    public class AggregateModuleCatalog : IModuleCatalog
     {
         private List<IModuleCatalog> catalogs = new List<IModuleCatalog>();
 
@@ -17,16 +17,15 @@ namespace ModularityUnityTest.Desktop
         {
             this.catalogs.Add(new ModuleCatalog());
         }
-
-        public ReadOnlyCollection<IModuleCatalog> catalog
+ 
+        public AggregateModuleCatalog(List<IModuleCatalog> catalogs)
         {
-            get
-            {
-                return this.catalogs.AsReadOnly();
-            }
-        }
+            if (catalogs == null)
+                throw new ArgumentNullException("catalogs");
 
-        public void AddCatalog(IModuleCatalog catalog)
+            this.catalogs = catalogs;
+        }
+        public AggregateModuleCatalog(IModuleCatalog catalog)
         {
             if (catalog == null)
                 throw new ArgumentNullException("catalog");
@@ -34,37 +33,45 @@ namespace ModularityUnityTest.Desktop
             this.catalogs.Add(catalog);
         }
 
-        public IEnumerable<ModuleInfo> Modules
+        public List<IModuleCatalog> Catalogs
         {
-            get
-            {
-                return this.catalogs.SelectMany(x => x.Modules);
-            }
+            get { return this.catalogs; }
+        }
+        public ReadOnlyCollection<IModuleCatalog> Catalogs
+        {
+            get { return this.catalogs.AsReadOnly(); }
         }
 
-        public IEnumerable<ModuleInfo> GetDependentModules(ModuleInfo moduleInfo)
+        public void IModuleCatalog.AddModule(ModuleInfo moduleInfo)
+        {
+            if (moduleInfo == null)
+                throw new ArgumentNullException("moduleInfo");
+
+            this.catalogs[0].AddModule(moduleInfo);    
+        }
+
+        public IEnumerable<ModuleInfo> IModuleCatalog.CompleteListWithDependencies(IEnumerable<ModuleInfo> modules)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<ModuleInfo> IModuleCatalog.GetDependentModules(ModuleInfo moduleInfo)
         {
             var catalog = this.catalogs.Single(x => x.Modules.Contains(moduleInfo));
             return catalog.GetDependentModules(moduleInfo);
         }
 
-        public IEnumerable<ModuleInfo> CompleteListWithDependencies(IEnumerable<ModuleInfo> moduleInfos)
+        public void IModuleCatalog.Initialize()
         {
-            var modulesGroupbyCatalog = moduleInfos.GroupBy<ModuleInfo, IModuleCatalog>(module => this.catalogs.Single(catalog => catalog.Modules.Contains(module)));
-            return modulesGroupbyCatalog.SelectMany(x => x.Key.CompleteListWithDependencies(x));
-        }
-
-        public void Initialize()
-        {
-            foreach(var catalog in this.catalogs)
+            foreach (var catalog in this.catalogs)
             {
                 catalog.Initialize();
             }
         }
 
-        public void AddModule(ModuleInfo module)
+        public IEnumerable<ModuleInfo> IModuleCatalog.Modules
         {
-            this.catalogs[0].AddModule(module);
+            get  { return this.catalogs.SelectMany(x => x.Modules); }
         }
     }
 }

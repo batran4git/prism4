@@ -88,6 +88,9 @@
     <Compile Include="CallbackLogger.cs" />
     <Compile Include="DiscoveryMethod.cs" />
     <Compile Include="DownloadTiming.cs" />
+    <Compile Include="ModuleControl.xaml.cs">
+      <DependentUpon>ModuleControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ModuleInitializationStatus.cs" />
     <Compile Include="ModuleTracker.cs" />
     <Compile Include="ModuleTrackingState.cs" />
@@ -121,6 +124,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="ModuleControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Shell.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
