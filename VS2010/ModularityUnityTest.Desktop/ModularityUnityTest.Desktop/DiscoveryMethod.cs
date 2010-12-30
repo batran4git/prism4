@@ -7,7 +7,9 @@ namespace ModularityUnityTest.Desktop
 {
     public enum DiscoveryMethod
     {
+        ApplicationReference,
         Initialized,
         OnDemand,
+        DirectorySweep,
     }
 }

@@ -9,29 +9,28 @@ using ModuleTracking;
 
 namespace ModularityUnityTest.Desktop
 {
-    [Module(ModuleName=WellKnownModuleName.ModuleC)]
-    public class ModuleC: IModule
+    [Module(ModuleName=WellKnownModuleName.ModuleB, OnDemand=true)]
+    class ModuleB : IModule
     {
         private readonly ILoggerFacade logger;
         private readonly IModuleTracker moduleTracker;
 
-        public ModuleC(ILoggerFacade logger, IModuleTracker tracker)
+        public ModuleB(ILoggerFacade logger, IModuleTracker tracker)
         {
             if (logger == null)
                 throw new ArgumentNullException("logger");
-
             if (tracker == null)
                 throw new ArgumentNullException("moduleTracker");
 
             this.logger = logger;
             this.moduleTracker = tracker;
-            this.moduleTracker.RecordModuleConstructed(WellKnownModuleName.ModuleC);
+            this.moduleTracker.RecordModuleConstructed(WellKnownModuleName.ModuleB);
         }
 
         public void Initialize()
         {
-            this.logger.Log("Module C demonstartes logging during initialize()..", Category.Info, Priority.Low);
-            this.moduleTracker.RecordModuleInitialized(WellKnownModuleName.ModuleC);
+            this.logger.Log("Module B demonstrates logging during initialize()..", Category.Info, Priority.Low);
+            this.moduleTracker.RecordModuleInitialized(WellKnownModuleName.ModuleB);
         }
     }
 }

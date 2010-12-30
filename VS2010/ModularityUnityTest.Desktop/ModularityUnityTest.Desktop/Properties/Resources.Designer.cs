@@ -67,5 +67,13 @@ namespace ModularityUnityTest.Desktop.Properties
                 resourceCulture = value;
             }
         }
+
+        internal static string ModuleConstructed
+        {
+            get
+            {
+                return ResourceManager.GetString("ModuleConstructed", resourceCulture);
+            }
+        }
     }
 }

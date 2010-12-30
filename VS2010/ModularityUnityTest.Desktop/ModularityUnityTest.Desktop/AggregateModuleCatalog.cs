@@ -52,6 +52,7 @@ namespace ModularityUnityTest.Desktop
 
         public IEnumerable<ModuleInfo> IModuleCatalog.CompleteListWithDependencies(IEnumerable<ModuleInfo> modules)
         {
+            //TODO: implement CompleteListWithDependencies(..)
             throw new NotImplementedException();
         }
 
