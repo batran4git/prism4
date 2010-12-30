@@ -33,16 +33,16 @@ namespace ModularityUnityTest.Desktop
             this.catalogs.Add(catalog);
         }
 
-        public List<IModuleCatalog> Catalogs
-        {
-            get { return this.catalogs; }
-        }
+        //public List<IModuleCatalog> Catalogs
+        //{
+        //    get { return this.catalogs; }
+        //}
         public ReadOnlyCollection<IModuleCatalog> Catalogs
         {
             get { return this.catalogs.AsReadOnly(); }
         }
 
-        public void IModuleCatalog.AddModule(ModuleInfo moduleInfo)
+        public void AddModule(ModuleInfo moduleInfo)
         {
             if (moduleInfo == null)
                 throw new ArgumentNullException("moduleInfo");
@@ -50,19 +50,22 @@ namespace ModularityUnityTest.Desktop
             this.catalogs[0].AddModule(moduleInfo);    
         }
 
-        public IEnumerable<ModuleInfo> IModuleCatalog.CompleteListWithDependencies(IEnumerable<ModuleInfo> modules)
+        public IEnumerable<ModuleInfo> CompleteListWithDependencies(IEnumerable<ModuleInfo> modules)
         {
             //TODO: implement CompleteListWithDependencies(..)
-            throw new NotImplementedException();
+            if (modules == null) throw new ArgumentNullException("modules");
+            return null;
+ //           var modulesGroupbyCatalog = modules.GroupBy<ModuleInfo, IModuleCatalog>(
+//            return modulesGroupbyCatalog;
         }
 
-        public IEnumerable<ModuleInfo> IModuleCatalog.GetDependentModules(ModuleInfo moduleInfo)
+        public IEnumerable<ModuleInfo> GetDependentModules(ModuleInfo moduleInfo)
         {
             var catalog = this.catalogs.Single(x => x.Modules.Contains(moduleInfo));
             return catalog.GetDependentModules(moduleInfo);
         }
 
-        public void IModuleCatalog.Initialize()
+        public void Initialize()
         {
             foreach (var catalog in this.catalogs)
             {
@@ -70,7 +73,7 @@ namespace ModularityUnityTest.Desktop
             }
         }
 
-        public IEnumerable<ModuleInfo> IModuleCatalog.Modules
+        public IEnumerable<ModuleInfo> Modules
         {
             get  { return this.catalogs.SelectMany(x => x.Modules); }
         }
