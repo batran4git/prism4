@@ -19,6 +19,7 @@ namespace ModularityUnityTest.Desktop
     class QuickStartBootstrapper : UnityBootstrapper
     {
         private readonly CallbackLogger callbackLogger = new CallbackLogger();
+        //private readonly TextLogger textLogger = new TextLogger();
 
         protected override System.Windows.DependencyObject CreateShell()
         {
@@ -37,6 +38,10 @@ namespace ModularityUnityTest.Desktop
         {
             return this.callbackLogger;
         }
+        //protected override ILoggerFacade CreateLogger()
+        //{
+        //    return this.textLogger;
+        //}
 
         protected override void ConfigureContainer()
         {
