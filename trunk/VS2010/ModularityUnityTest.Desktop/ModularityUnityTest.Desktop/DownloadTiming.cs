@@ -8,5 +8,7 @@ namespace ModularityUnityTest.Desktop
     public enum DownloadTiming
     {
         OnDemand,
+        WithApplication,
+        InBackground,
     }
 }
