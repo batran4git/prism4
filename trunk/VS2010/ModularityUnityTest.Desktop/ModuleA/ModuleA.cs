@@ -9,8 +9,8 @@ using ModuleTracking;
 
 namespace ModularityUnityTest.Desktop
 {
-    [Module(ModuleName=WellKnownModuleName.ModuleA)]
-    [ModuleDependency(WellKnownModuleName.ModuleD)]
+    //[Module(ModuleName=WellKnownModuleName.ModuleA)]
+    //[ModuleDependency(WellKnownModuleName.ModuleD)]
     public class ModuleA: IModule
     {
         private readonly ILoggerFacade logger;
